@@ -1,0 +1,45 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Splash">
+
+    <item
+        android:id="@+id/action_normal"
+        android:title="Normal"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_satellite"
+        android:title="Satellite"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_hybrid"
+        android:title="Hybrid"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_terrain"
+        android:title="Terrain"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_none"
+        android:title="None"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_rate"
+        android:title="Rate Us"
+        android:icon="@mipmap/star"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+
+</menu>

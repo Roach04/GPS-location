@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/pointer"
+            android:id="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/linearLayout"
+            android:layout_toEndOf="@+id/linearLayout" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="second"
+            android:id="@+id/textViewFirst"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@+id/imageView2"
+            android:layout_toEndOf="@+id/imageView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewSecond"
+            android:text="second"
+            android:layout_below="@+id/textViewFirst"
+            android:layout_toRightOf="@+id/imageView2"
+            android:layout_toEndOf="@+id/imageView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewThird"
+            android:text="second"
+            android:layout_below="@+id/textViewSecond"
+            android:layout_alignLeft="@+id/textViewSecond"
+            android:layout_alignStart="@+id/textViewSecond"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textViewForth"
+            android:layout_below="@+id/textViewThird"
+            android:text="second"
+            android:layout_alignLeft="@+id/textViewThird"
+            android:layout_alignStart="@+id/textViewThird"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

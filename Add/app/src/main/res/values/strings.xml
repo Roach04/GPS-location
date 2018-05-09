@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Settings</string>
+
+    <string name="app_name"> Locality. </string>
+    <string name="title_activity_prologue"> Home. </string>
+    <string name="app_address"> Address. </string>
+    <string name="title_activity_maps"> Map. </string>
+
+    <!-- -
+        This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="banner_address_id">ca-app-pub-1706270905576064/8747910035</string>
+
+    <string name="banner_maps_id">ca-app-pub-1706270905576064/7232320835</string>
+</resources>
